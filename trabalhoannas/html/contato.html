@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../css/contato.css"> <!-- Inclua seu arquivo CSS -->
+</head>
+<body>
+    <header>
+        <h1>Contato</h1>
+    </header>
+    
+    <main>
+        <!-- Formulário de Contato -->
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <form action="https://formspree.io/f/maykqjnd" method="POST">
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu Nome" required>
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <div class="input-container">
+                        <input type="email" id="email" name="email" placeholder="Seu E-mail" required>
+                        <svg class="input-icon" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 4h16l-8 8-8-8zm0 1l8 8 8-8H2z" fill="#999"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="campo">
+                    <label for="assunto">Assunto</label>
+                    <input type="text" id="assunto" name="assunto" placeholder="Assunto" required>
+                </div>
+                <div class="campo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Sua Mensagem" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="informacoes-contato">
+            <h2>Informações de Contato</h2>
+            <p>Email: <a href="mailto:0001066807@senaimgaluno.com.br">0001066807@senaimgaluno.com.br</a></p>
+            <p>Telefone: <a href="tel:+5511999999999">(3)997703275</a></p>
+            <div class="redes-sociais">
+                <a href="https://linkedin.com/in/seuperfil" target="_blank">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zm-1.5 5v13h3V8.5H3.48zm6.5 0v13h3v-7.5c0-3.125-1.375-4.5-3.25-4.5-1.5 0-2.625.875-3.125 1.875v-1.375h-3v2.5c1.375-2.5 3.25-3.75 5.875-3.75 3.5 0 6 2.5 6 7.5v8z" fill="#0077b5"/>
+                    </svg>
+                </a>
+                <a href="https://github.com/seuperfil" target="_blank">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.48 2 2 6.48 2 12c0 4.418 2.868 8.165 6.838 9.485.5.092.682-.217.682-.482 0-.238-.009-.868-.013-1.706-2.782.606-3.37-1.341-3.37-1.341-.454-1.154-1.11-1.46-1.11-1.46-.907-.621.069-.608.069-.608 1 .069 1.652 1.03 1.652 1.03.894 1.527 2.347 1.087 2.917.832.092-.648.35-1.087.637-1.337-2.22-.255-4.556-1.11-4.556-4.93 0-1.09.388-1.983 1.029-2.684-.103-.255-.447-1.293.098-2.693 0 0 .84-.268 2.75 1.02.798-.222 1.65-.333 2.5-.337.85.004 1.702.115 2.501.337 1.909-1.288 2.748-1.02 2.748-1.02.547 1.4.203 2.438.1 2.693.641.701 1.027 1.594 1.027 2.684 0 3.835-2.336 4.672-4.565 4.921.361.309.68.917.68 1.847 0 1.333-.012 2.414-.012 2.739 0 .265.18.575.688.479C19.134 20.165 22 16.418 22 12c0-5.52-4.48-10-10-10z" fill="#333"/>
+                    </svg>
+                </a>
+                <!-- Adicione mais links para redes sociais conforme necessário -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 [Seu Nome]. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

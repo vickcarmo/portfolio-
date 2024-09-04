@@ -1,0 +1,140 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2em 1em;
+}
+
+.hero {
+    max-width: 800px;
+}
+
+.hero .avatar {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.hero h1 {
+    margin: 0.5em 0;
+}
+
+.hero p {
+    margin: 1em 0;
+    color: #666;
+}
+
+.cta-buttons {
+    margin-top: 1em;
+}
+
+.cta-buttons .btn {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.75em 1.5em;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-buttons .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Depoimentos */
+#depoimentos {
+    padding: 2em 1em;
+    background-color: #fff;
+}
+
+#depoimentos h2 {
+    margin-bottom: 1em;
+}
+
+.testimonial-slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 1em;
+}
+
+.testimonial {
+    background: #f1f1f1;
+    padding: 1em;
+    border-radius: 4px;
+    flex: 0 0 300px;
+}
+
+/* Rodapé */
+footer {
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+footer .social-links {
+    margin-bottom: 1em;
+}
+
+footer .social-links a {
+    margin: 0 0.5em;
+    display: inline-block;
+}
+
+footer .social-links img {
+    width: 20px;
+    vertical-align: middle;
+}
+
+footer p {
+    margin-top: 1em;
+}

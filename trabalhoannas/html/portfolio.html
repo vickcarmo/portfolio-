@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos - Meu Portfólio</title>
+    <link rel="stylesheet" href="../css/portfolio.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <img src="../imagem/logo.png" alt="Logo Pessoal">
+        </div>
+        
+    </header>
+
+   
+    <main id="projetos">
+        <h1>Meus Projetos</h1>
+        <div class="project-gallery">
+            <div class="project" data-category="websites">
+                <img src="../imagem/projeto1.png" alt="Projeto 1">
+                <div class="overlay">
+                    <h3>Projeto 1</h3>
+                    <p>Esse projeto foi criado para compreendermos um pouco sobre a Tecnologia.</p>
+                    <button class="view-details" data-id="1">Ver Detalhes</button>
+                </div>
+            </div>
+          
+            <div class="modal" id="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2 id="modal-title">Tec-na logia</h2>
+                    <div id="modal-body">
+                        <img src="../imagem/projeto1.png" alt="Detalhes do Projeto">
+                        <p>O projeto foi aprofundado em tecnologias como realidade virtual, robótica e realidade aumentada.</p>
+                        <a href="#" id="live-link" target="_blank">Ver Projeto ao Vivo</a>
+                        <a href="#" id="repo-link" target="_blank">Ver no GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+

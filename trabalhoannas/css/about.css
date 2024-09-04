@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #ff70c8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #da119d;
+    color: #000000;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#sobre-mim {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+}
+
+.foto-pessoal {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.intro p {
+    font-size: 16px;
+    color: #333;
+}
+
+.intro svg {
+    margin-left: 20px;
+}
+
+#habilidades {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(160, 235, 172);
+}
+
+.habilidades-lista {
+    display: flex;
+    flex-direction: column;
+}
+
+.habilidade {
+    margin-bottom: 15px;
+}
+
+.habilidade h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.barra-progresso {
+    height: 10px;
+    background-color: #4c86af;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+}
+
+footer {
+    padding: 1em;
+    background-color: #ff70c8;
+    color: #fff;
+    text-align: center;
+}
